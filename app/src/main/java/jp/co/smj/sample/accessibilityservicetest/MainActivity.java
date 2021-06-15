@@ -103,8 +103,8 @@ public class MainActivity extends AppCompatActivity {
         }.start();
     }
 
-    private void keyEvent() {
+    /*private void keyEvent() {
         IBinder wmbinder = ServiceManager.getService( "window" );
         IWindowManager m_WndManager = IWindowManager.Stub.asInterface( wmbinder );
-    }
+    }*/
 }
